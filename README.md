@@ -1,4 +1,4 @@
-# snappsense# SnapSense Repository Description  
+# SnapSense
 
 Welcome to **SnapSense** – your go-to web application for **analyzing and visualizing user sentiment** from app reviews!  
 
