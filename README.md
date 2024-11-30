@@ -42,12 +42,13 @@ Welcome to **SnappSense** – your go-to web application for **analyzing and vis
 
 ### 📂 **Repository Structure**  
 - `frontend/`: HTML and CSS files for UI.  
-- `backend/`: Python scripts for data processing and analysis.  
-- `data/`: Sample datasets for testing.  
-- `visualizations/`: Scripts for generating graphs and charts.  
+- `backend/`: Python- Django scripts for data processing and analysis.  
+- `data/`: Scrapper sample datasets for testing.
+- `parsing/`: Textblob for sentiment analysis. 
+- `visualizations/`: Plotly Scripts for generating graphs and charts.  
 
 ### 📜 **Contributing**  
-Contributions are welcome! Feel free to open issues, suggest improvements, or create pull requests.  
+Contributions are *closed* due to academic reasons! But feel free to open issues & suggest improvements.  
 
 ---
 
