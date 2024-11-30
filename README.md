@@ -11,9 +11,9 @@ Welcome to **SnappSense** – your go-to web application for **analyzing and vis
    - Track changes in sentiment over specific periods (1 month, 3 months, 6 months, 1 year).  
    - Interactive stacked bar charts showcasing sentiment distribution.  
 
-3. **Compare Two Apps**  
-   - Side-by-side comparison of sentiments and star ratings.  
-   - Visualizations for quick insights.  
+3. **Retrieving Actionable Feedback**  
+   - Get deeper insights into user reviews.  
+   - Dwelve into feature requests, bug reports & other feedbacks.  
 
 4. **Additional Tools**  
    - **Weighted Analysis** using helpful counts and star ratings.  
