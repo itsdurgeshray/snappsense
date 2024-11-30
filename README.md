@@ -1,6 +1,6 @@
-# SnapSense
+# SnappSense
 
-Welcome to **SnapSense** – your go-to web application for **analyzing and visualizing user sentiment** from app reviews!  
+Welcome to **SnappSense** – your go-to web application for **analyzing and visualizing user sentiment** from app reviews!  
 
 ### 🚀 **Features**  
 1. **Sentiment Analysis Based on User Percentage**  
@@ -35,7 +35,7 @@ Welcome to **SnapSense** – your go-to web application for **analyzing and visu
 - **Visualization**: Python libraries (Matplotlib/Plotly)  
 - **Deployment**: Platforms like Vercel or Netlify  
 
-### 🌟 **Why SnapSense?**  
+### 🌟 **Why SnappSense?**  
 - Gain meaningful insights into app user sentiment.  
 - Perfect for developers, marketers, and researchers.  
 - Simple, intuitive, and visually engaging.  
