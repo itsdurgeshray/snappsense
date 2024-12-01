@@ -13,17 +13,23 @@
 
 ### 💻 **Tech Stack**
 - **Frontend**:
-  - **React.js**: For building dynamic and responsive user interfaces.
+  - **HTML**: For webpage structuring.
   - **CSS3**: For fast styling with utility-first CSS classes.
+  - **React.js**: For building interactive, dynamic and responsive user interfaces.
   - **Chart.js**: For visualizing sentiment trends and feedback data.
   - **Lottie.js**: For displaying lightweight animations (e.g., loading indicators).
 
 - **Backend**:
+  - **Python**: Core language for backend logic, handling scrapping, processing & analysis.
   - **Flask**: Python web framework for handling backend logic.
-  - **google-play-scraper**: To scrape user reviews from the Google Play Store.
-  - **langdetect**: For detecting review languages.
-  - **LibreTranslate**: For translating reviews into the user's preferred language.
-  - **Redis**: For caching to speed up responses for apps with many reviews.
+  - **Flask-CORS**: For Cross-Origin Resource Sharing (CORS) support for frontend-backend communication
+  - **Google-Play-Scraper**: For scrape reviews and metadata from Google Play Store.
+  - **Langid.py**: To detect the language of reviews for translation.
+  - **MarianMT**: Translate reviews to a common language for analysis.
+  - **SQLite**: For storing data persistently for reviews, session data, and caching.
+  - **Python's "dict"**: For caching processed data in memory for faster access.
+  - **Pandas**: For data manipulation and processing, especially for handling tabular data.
+  - **PapaParse**: For CSV generation and parsing in the frontend.
 
 
 ### 🌍 **Platform Capabilities**
