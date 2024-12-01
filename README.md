@@ -14,7 +14,7 @@
 ### 💻 **Tech Stack**
 - **Frontend**:
   - **React.js**: For building dynamic and responsive user interfaces.
-  - **TailwindCSS**: For fast styling with utility-first CSS classes.
+  - **CSS3**: For fast styling with utility-first CSS classes.
   - **Chart.js**: For visualizing sentiment trends and feedback data.
   - **Lottie.js**: For displaying lightweight animations (e.g., loading indicators).
 
