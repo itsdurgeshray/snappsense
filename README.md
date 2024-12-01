@@ -26,6 +26,7 @@
   - **Google-Play-Scraper**: For scrape reviews and metadata from Google Play Store.
   - **Langid.py**: To detect the language of reviews for translation.
   - **MarianMT**: Translate reviews to a common language for analysis.
+  - **TextBlob**: For review parsing  sentiment analysis on translated reviews.
   - **SQLite**: For storing data persistently for reviews, session data, and caching.
   - **Python's "dict"**: For caching processed data in memory for faster access.
   - **Pandas**: For data manipulation and processing, especially for handling tabular data.
