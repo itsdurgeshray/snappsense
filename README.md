@@ -1,55 +1,40 @@
 # SnappSense
 
-Welcome to **SnappSense** – your go-to web application for **analyzing and visualizing user sentiment** from app reviews!  
+**SnappSense** is a web application designed to help app developers and product managers capture and analyze user feedback from mobile apps on the Google Play Store. It provides sentiment analysis, feedback categorization, and valuable insights into user reviews, enabling better decision-making for app improvement.
 
-### 🚀 **Features**  
-1. **Sentiment Analysis Based on User Percentage**  
-   - Categorize reviews into five sentiments: **Delighted**, **Happy**, **Neutral**, **Frustrated**, and **Angry**.  
-   - View percentage distribution of users for each sentiment.  
+### 🚀 **Features**
+- **Sentiment Analysis**: Categorizes user reviews into five sentiment categories: Delighted, Happy, Neutral, Angry, and Frustrated.
+- **Sentiment Trends**: Track sentiment trends over different time periods: 1 week, 1 month, 3 months, 6 months, and 1 year.
+- **All-Time Sentiment Distribution**: Visualize the overall sentiment distribution of all reviews.
+- **Categorized Feedback**: Group feedback into categories like feature requests and bug reports with potential solutions.
+- **Review Translation**: Translate reviews in different languages to the user’s preferred language using **LibreTranslate**.
+- **CSV Export**: Export categorized feedback and sentiment data to CSV for further analysis.
+- **Interactive Visuals**: Hover over charts for detailed insights, including percentage breakdowns of sentiments.
 
-2. **Sentiment Trend Over Time**  
-   - Track changes in sentiment over specific periods (1 month, 3 months, 6 months, 1 year).  
-   - Interactive stacked bar charts showcasing sentiment distribution.  
+### 💻 **Tech Stack**
+- **Frontend**:
+  - **React.js**: For building dynamic and responsive user interfaces.
+  - **TailwindCSS**: For fast styling with utility-first CSS classes.
+  - **Chart.js**: For visualizing sentiment trends and feedback data.
+  - **Lottie.js**: For displaying lightweight animations (e.g., loading indicators).
 
-3. **Retrieving Actionable Feedback**  
-   - Get deeper insights into user reviews.  
-   - Dwelve into feature requests, bug reports & other feedbacks.  
+- **Backend**:
+  - **Flask**: Python web framework for handling backend logic.
+  - **google-play-scraper**: To scrape user reviews from the Google Play Store.
+  - **langdetect**: For detecting review languages.
+  - **LibreTranslate**: For translating reviews into the user's preferred language.
+  - **Redis**: For caching to speed up responses for apps with many reviews.
 
-4. **Additional Tools**  
-   - **Weighted Analysis** using helpful counts and star ratings.  
-   - **Feedback Summary Table** for actionable insights.  
-   - Export data as **CSV**.  
 
-5. **Interactive Visualization**  
-   - Time-based stacked bar and pie charts for detailed analysis.  
-   - Hover-over details for granular sentiment breakdowns.  
+### 🌍 **Platform Capabilities**
+- **Sentiment Analysis**: Categorizes reviews into different sentiments and tracks how sentiment evolves over time.
+- **Review Breakdown**: Categorizes reviews into useful feedback (e.g., bug reports, feature requests) with actionable suggestions.
+- **Language Support**: Reviews are translated for users who speak different languages, improving accessibility.
+- **Interactive Charts**: Users can interact with charts to see detailed sentiment distributions and trends.
 
-### 🛠 **How It Works**  
-1. Input the app link on the **Landing Page**.  
-2. Press the "Snap It" button to process and analyze reviews.  
-3. Get detailed results with **charts, tables, and summaries**.  
-
-### 🧰 **Tech Stack**  
-- **Frontend**: HTML, CSS  
-- **Backend**: Python, SQL  
-- **Visualization**: Python libraries (Matplotlib/Plotly)  
-- **Deployment**: Platforms like Vercel or Netlify  
-
-### 🌟 **Why SnappSense?**  
-- Gain meaningful insights into app user sentiment.  
-- Perfect for developers, marketers, and researchers.  
-- Simple, intuitive, and visually engaging.  
-
-### 📂 **Repository Structure**  
-- `frontend/`: HTML and CSS files for UI.  
-- `backend/`: Python- Django scripts for data processing and analysis.  
-- `data/`: Scrapper sample datasets for testing.
-- `parsing/`: Textblob for sentiment analysis. 
-- `visualizations/`: Plotly Scripts for generating graphs and charts.  
-
-### 📜 **Contributing**  
-Contributions are *closed* due to academic reasons! But feel free to open issues & suggest improvements.  
+### 🧰 **Issues**
+If you encounter any issues or bugs, please feel free to open an issue in the repository, and it will be addressed.
 
 ---
 
-📊 **Snap the vibe of your app, sense the user pulse!**  
+**SnappSense** is your go-to tool for understanding and analyzing user sentiment for mobile apps. Capture user feedback, make data-driven decisions, and improve your app’s experience. 🚀
