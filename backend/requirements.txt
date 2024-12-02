@@ -1,0 +1,8 @@
+Flask==2.3.2
+Flask-CORS==3.0.10
+google-play-scraper==1.2.0
+langid==1.1.6
+transformers==4.34.0  # For MarianMT
+pandas==2.1.1
+textblob==0.17.1
+sqlite-utils==3.32.1

@@ -18,6 +18,7 @@
   - **React.js**: For building interactive, dynamic and responsive user interfaces.
   - **Chart.js**: For visualizing sentiment trends and feedback data.
   - **Lottie.js**: For displaying lightweight animations (e.g., loading indicators).
+  - **PapaParse**: For CSV generation and parsing in the frontend.
 
 - **Backend**:
   - **Python**: Core language for backend logic, handling scrapping, processing & analysis.
@@ -30,7 +31,6 @@
   - **SQLite**: For storing data persistently for reviews, session data, and caching.
   - **Python's "dict"**: For caching processed data in memory for faster access.
   - **Pandas**: For data manipulation and processing, especially for handling tabular data.
-  - **PapaParse**: For CSV generation and parsing in the frontend.
 
 
 ### 🌍 **Platform Capabilities**
